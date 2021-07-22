@@ -1,18 +1,23 @@
 {
-  "name": "vk-saver-daily-playlist",
-  "version": "1.0.0",
-  "repository": "https://github.com/RusAnonym/vk-saver-daily-playlist.git",
-  "author": "rus_anonym <alexandrsemin2033@gmail.com>",
-  "license": "MIT",
-  "scripts": {
+	"name": "vk-saver-daily-playlist",
+	"version": "1.0.0",
+	"repository": "https://github.com/RusAnonym/vk-saver-daily-playlist.git",
+	"author": "rus_anonym <alexandrsemin2033@gmail.com>",
+	"license": "MIT",
+	"scripts": {
 		"start": "ts-node --project tsconfig.json ./src/main.ts"
 	},
-  "dependencies": {
-    "vk-io": "^4.3.2"
-  },
-  "devDependencies": {
-		"@types/node": "^16.3.3",
+	"dependencies": {
+		"@vk-io/authorization": "^1.2.1",
+		"readline": "^1.3.0",
+		"readline-sync": "^1.4.10",
+		"rus-anonym-utils": "^2.5.7",
 		"ts-node": "^10.1.0",
-		"typescript": "^4.3.5"
+		"typescript": "^4.3.5",
+		"vk-io": "^4.3.2"
+	},
+	"devDependencies": {
+		"@types/node": "^16.3.3",
+		"@types/readline-sync": "^1.4.4"
 	}
 }
